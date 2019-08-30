@@ -44300,7 +44300,6 @@ var addInitialData = function(){
         return;
     }
     while(this.data.length > 0 && this.firstRunTime + (next = this.data.pop()).when < Date.now()){
-        console.log('seeing how many times it passes')
         this.addPin(next.lat, next.lng, next.label);
     }
 
@@ -44552,7 +44551,7 @@ function Globe(width, height, opts){
 
     var defaults = {
         font: "Inconsolata",
-        baseColor: "#FFF",
+        baseColor: "#ffffff",
         markerColor: "#f4f7f5",
         pinColor: "#00eeee",
         satelliteColor: "#ff0000",
@@ -44560,10 +44559,10 @@ function Globe(width, height, opts){
         thinAntarctica: .07, // only show 1% of antartica... you can't really see it on the map anyhow
         mapUrl: "resources/equirectangle_projection.png",
         introLinesAltitude: 1.10,
-        introLinesDuration: 2000,
+        introLinesDuration: 4000,
         introLinesColor: "#8FD8D8",
         introLinesCount: 60,
-        scale: 1.0,
+        scale: 1.1,
         dayLength: 28000,
         pointsPerDegree: 1.1,
         pointSize: .6,
