@@ -1,0 +1,28 @@
+{
+  "name": "globe-timeclock",
+  "main": "encom-globe.js",
+  "homepage": "https://www.visualdemand.co",
+  "authors": [],
+  "description": "WebGL globe with time",
+  "keywords": [
+    "webgl",
+    "tron",
+    "globe",
+    "geo",
+    "visualization"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "include",
+    "resources",
+    "src",
+    "browserify.js",
+    "Gruntfile.js",
+    "index.html",
+    "package.json",
+    "screenshot.jpg",
+    "styles.css"
+  ]
+}
