@@ -283,7 +283,7 @@ function Globe(width, height, opts){
 
     var defaults = {
         font: "Inconsolata",
-        baseColor: "#30c5ff",
+        baseColor: "#ffffff",
         markerColor: "#f4f7f5",
         pinColor: "#00eeee",
         satelliteColor: "#ff0000",

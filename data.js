@@ -4,7 +4,7 @@ var data = () => {
 
     const timeCalc = (zone) => moment()
     .tz(zone)
-    .format('hh:mm:A')
+    .format('hh:mm A')
 
 const timezones = [
     'America/New_York',

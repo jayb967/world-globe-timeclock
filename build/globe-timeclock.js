@@ -44300,6 +44300,7 @@ var addInitialData = function(){
         return;
     }
     while(this.data.length > 0 && this.firstRunTime + (next = this.data.pop()).when < Date.now()){
+        console.log('seeing how many times it passes')
         this.addPin(next.lat, next.lng, next.label);
     }
 
@@ -44551,7 +44552,7 @@ function Globe(width, height, opts){
 
     var defaults = {
         font: "Inconsolata",
-        baseColor: "#30c5ff",
+        baseColor: "#FFF",
         markerColor: "#f4f7f5",
         pinColor: "#00eeee",
         satelliteColor: "#ff0000",
@@ -44956,9 +44957,9 @@ var Marker = function(lat, lon, text, altitude, previous, scene, _opts){
 
     /* options that can be passed in */
     var opts = {
-        lineColor: "#FFCC00",
+        lineColor: "#30c5ff",
         lineWidth: 1,
-        markerColor: "#FFCC00",
+        markerColor: "#30c5ff",
         labelColor: "#FFF",
         font: "Inconsolata",
         fontSize: 20,

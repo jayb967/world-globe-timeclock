@@ -33,9 +33,9 @@ var Marker = function(lat, lon, text, altitude, previous, scene, _opts){
 
     /* options that can be passed in */
     var opts = {
-        lineColor: "#FFCC00",
+        lineColor: "#30c5ff",
         lineWidth: 1,
-        markerColor: "#FFCC00",
+        markerColor: "#30c5ff",
         labelColor: "#FFF",
         font: "Inconsolata",
         fontSize: 20,
