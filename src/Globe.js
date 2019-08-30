@@ -293,7 +293,7 @@ function Globe(width, height, opts){
         introLinesDuration: 4000,
         introLinesColor: "#8FD8D8",
         introLinesCount: 60,
-        scale: 1.1,
+        scale: 1.0,
         dayLength: 28000,
         pointsPerDegree: 1.1,
         pointSize: .6,
