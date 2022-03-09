@@ -52,7 +52,7 @@ return [
     { lat: -33.92584, lng: 18.42322, label: `Cape Town ${tick(timezones[14])}` },
     { lat: 52.52437, lng: 13.41053, label: `Berlin ${tick(timezones[15])}` },
     { lat: 55.95206, lng: -3.19648, label: `Edinburgh ${tick(timezones[16])}` },
-    { lat: 55.75222, lng: 37.61556, label: `Moscow ${tick(timezones[17])}` },
+    { lat: 50.4501, lng: 30.5234, label: `Kiev ${tick(timezones[17])}` },
 ]
 
     
