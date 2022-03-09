@@ -24,7 +24,7 @@ const timezones = [
     'Africa/Johannesburg', // Cape Town
     'Europe/Berlin',
     'Etc/GMT+1', // Edinburgh
-    'Europe/Moscow'
+    'Europe/Kiev'
 ]
 
 const tick = (zone) => {
